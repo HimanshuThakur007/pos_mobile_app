@@ -1,0 +1,137 @@
+{
+  "menuGroups": [
+    {
+      "id": "overview",
+      "title": "Overview & Analytics",
+      "subtitle": "Dashboards & Performance Audits",
+      "icon": "BarChart3",
+      "items": [
+        {
+          "name": "POSSales",
+          "label": "POS Sales Dashboard",
+          "subtitle": "Live Revenue & Telemetry",
+          "icon": "LayoutDashboard"
+        },
+        {
+          "name": "SalesPeriodComparison",
+          "label": "Sales Period Comparison",
+          "subtitle": "Month, Week & Day Growth Audit",
+          "icon": "Scale"
+        },
+        {
+          "name": "Reports",
+          "label": "Detailed Sales Reports",
+          "subtitle": "Comprehensive Sales Breakdown",
+          "icon": "FileText"
+        }
+      ]
+    },
+    {
+      "id": "target_vs_achievement",
+      "title": "Target vs Achievement",
+      "subtitle": "Department Targets & Day Wise Sales",
+      "icon": "Target",
+      "items": [
+        {
+          "name": "DepartmentTarget",
+          "label": "Department Target",
+          "subtitle": "Department Target & Achievement",
+          "icon": "Building2"
+        },
+        {
+          "name": "DayWiseStoreSale",
+          "label": "Day Wise Store Sale",
+          "subtitle": "Daily Store Performance & Targets",
+          "icon": "Calendar"
+        }
+      ]
+    },
+    {
+      "id": "store_analytics",
+      "title": "Store Performance",
+      "subtitle": "Branch Ranking & Matrix Views",
+      "icon": "Store",
+      "items": [
+        {
+          "name": "BranchWiseSales",
+          "label": "Branch Sales Ranking",
+          "subtitle": "Store Performance & Ranking",
+          "icon": "Trophy"
+        },
+        {
+          "name": "BranchWiseDailySalesMatrix",
+          "label": "Daily Sales Matrix",
+          "subtitle": "Store Daily Sales Matrix View",
+          "icon": "Calendar"
+        },
+        {
+          "name": "BranchWiseHourlySalesMatrix",
+          "label": "Hourly Matrix (Sheet)",
+          "subtitle": "Excel Grid Hourly Sales Matrix",
+          "icon": "Table"
+        },
+        {
+          "name": "BranchWiseSubCategorySales",
+          "label": "Sub-Category Sales",
+          "subtitle": "Store Sub-Category Analytics",
+          "icon": "FolderTree"
+        },
+        {
+          "name": "TopSellingItems",
+          "label": "Top 10 Selling Items",
+          "subtitle": "Store Top Products Analytics",
+          "icon": "Flame"
+        }
+      ]
+    },
+    {
+      "id": "financials",
+      "title": "Financials & Offers",
+      "subtitle": "Payment Modes & Discounts",
+      "icon": "CreditCard",
+      "items": [
+        {
+          "name": "BranchWisePaymentMode",
+          "label": "Payment Modes Split",
+          "subtitle": "Store Payment Channels Split",
+          "icon": "CreditCard"
+        },
+        {
+          "name": "BranchWiseDiscountOffer",
+          "label": "Discount & Offers",
+          "subtitle": "Store Offer & Discount Split",
+          "icon": "Percent"
+        }
+      ]
+    },
+    {
+      "id": "audits",
+      "title": "Audit & Reconciliation",
+      "subtitle": "ERP vs POS & Bill Audits",
+      "icon": "GitCompare",
+      "requiresFlag": "SHOW_ERP_POS_AND_BILLS",
+      "items": [
+        {
+          "name": "BillComparison",
+          "label": "Bill Comparison",
+          "subtitle": "Store Date Summary Audit",
+          "icon": "FileText"
+        },
+        {
+          "name": "ErpPosComparison",
+          "label": "ERP vs POS Comparison",
+          "subtitle": "Branch Sync Audit",
+          "icon": "GitCompare"
+        }
+      ]
+    }
+  ],
+  "standaloneItems": [
+    {
+      "name": "Settings",
+      "label": "App Settings",
+      "subtitle": "Preferences & Config",
+      "icon": "Settings"
+    }
+  ]
+}

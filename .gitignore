@@ -3,6 +3,10 @@
 # dependencies
 node_modules/
 
+# Archives
+*.zip
+
+
 # Expo
 .expo/
 dist/
